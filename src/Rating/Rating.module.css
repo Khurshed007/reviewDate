@@ -1,0 +1,18 @@
+
+.star {
+    fill: #fff;
+    stroke: black;
+    stroke-width: 2;
+    width: 20px;
+    height: 20px;
+  }
+
+  .filed {
+    width: 20px;
+    height: 20px;
+    fill: blue;
+}
+
+.clicked{
+    fill: blue;
+}

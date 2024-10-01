@@ -1,0 +1,36 @@
+/* src/Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50; /* Зеленый цвет фона */
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+}
+
+.greeting {
+    font-size: 18px; /* Размер шрифта */
+    color: white; /* Цвет текста */
+    margin: 0 15px; /* Отступы */
+}
+
+.navButton {
+    background-color: #ffffff; /* Цвет фона кнопки */
+    color: #4CAF50; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navButton:hover {
+    background-color: #4CAF50; /* Цвет фона при наведении */
+    color: white; /* Цвет текста при наведении */
+}
