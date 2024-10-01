@@ -17,7 +17,7 @@ const Navbar = () => {
     
     return (
         <nav className={styles.navbar}>
-            <div className={styles.logo}>Логотип</div>
+            <div className={styles.logo}>Ваша навигация</div>
             <p className={styles.greeting}>Здравствуйте, {currentUser.displayName}!</p>
 
             <Link to={"/"}>
